@@ -1,0 +1,7 @@
+{"teammembers":[
+  {
+"log": "Login/Sign Up",
+  "textbox": "<input  type=\"email\" name=\"Email\" placeholder=\"Email\" autocomplete=\"true\" required>",
+  "textbox2": "<input type=\"password\" name=\"pass\" placeholder=\"Password\" autocomplete=\"true\" required>",
+  "submit": "<input class=\"profile_submit\"  type=\"submit\" name=\"Submit\" autocomplete=\"true\" value=\"Login/Sign Up\">\n"}
+]}

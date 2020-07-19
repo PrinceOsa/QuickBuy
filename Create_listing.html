@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Listing</title>
+
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <link href="https://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
+    <script src="Create_listing.js" ></script>
+
+
+</head>
+
+<body class="create_list_body">
+<header>
+    <div>
+        <nav>
+            <!-- Creates the logo in the header -->
+            <div class="logo" ><a href="Landing_Page.html" ><img id="logoim" src="Final_image/Quickbuy_logo.png" aria-roledescription="Header image"/></a></div>
+            <!-- Contains the navigation tabs -->
+            <ul class="nav_links">
+                <li><a href="Categories.html">Categories</a></li>
+                <li><a href="Create_listing.html">Create Listing</a></li>
+                <li><a href="About.html">Our Mission</a></li>
+                <li><a href="Login.html" >Sign in/Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<h1 id="Listing">Create New Listing </h1>
+<form class="create_form">
+    <!-- Div that contains Item Name -->
+    <div>
+    <label class="labelclass">Item Name: </label>
+        <input class="textb" id="name" type="text" name="Description" aria-required="true" required>
+    </div>
+    <!-- Div that contains Item Price -->
+    <div>
+        <label class="labelclass">Item Price:</label>
+        <input class="textb" id="Asking_price" type="number" name="Asking_price" aria-required="true" required>
+    </div>
+    <!-- Div that contains Quality type -->
+    <div>
+        <label class="labelclass">Quantity: </label>
+        <input class="textb" id="quantity" type="text" name="Asking_price" aria-required="true" required>
+    </div>
+
+    <div>
+        <label class="labelclass" >Item Type:</label>
+        <!-- Item Type drop down menu -->
+        <select class="labelclass2" >
+            <option>Electronic</option>
+            <option>Vehicles</option>
+            <option>Art</option>
+            <option>Sports</option>
+            <option>Clothing</option>
+            <option>Toys</option>
+        </select>
+    </div>
+
+    <label class="labelclass">Brand:</label>
+        <input class="textb" id="Brand" type="text" name="Asking_price" aria-required="true" required>
+    <div>
+        <label class="labelclass">Item Conditon:</label>
+        <!-- Condition drop down menu -->
+        <select class="labelclass2" >
+            <option>New</option>
+            <option>Used- Very Good</option>
+            <option>Used- Good</option>
+            <option>Used- Decent</option>
+            <option>Used- Poor</option>
+        </select>
+    </div>
+    <div>
+    <label class="labelclass">Description: </label>
+        <textarea name="Description" id="desc"  rows="10" cols="80" required ></textarea>
+    </div>
+    <!-- Div to for the file uploader element -->
+    <div id="fileuploader">Upload</div>
+
+    <div class="labelclass">
+        <!-- Submit button input -->
+        <input  type="submit" id="Create_Submit" value="Create New Listing" >
+    </div>
+    <div></div>
+
+</form>
+<footer class="footer_nav">
+    <div>
+        <nav>
+            <!-- Links the logo image for the footer -->
+            <div class="footer_logo" ><a href="Landing_Page.html" ><img id="logoim2" src="Final_image/Quickbuy_logo.png" alt="Quickbuy logo" aria-roledescription="Footer image"/></a></div>
+            <ul class="nav_links">
+
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+
+</html>
